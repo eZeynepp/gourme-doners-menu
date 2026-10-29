@@ -1,0 +1,135 @@
+[
+    
+  {
+    "id": 1,
+    "isim": "Tombik Döner",
+    "fiyat": 90,
+    "image": "resimler/tombik-doner.jpg"
+  },
+  {
+    "id": 2,
+    "isim": "Tombik Kumru",
+    "fiyat": 140,
+    "image": "resimler/tombik-kumru.jpeg"
+  },
+  {
+    "id": 3,
+    "isim": "Yarım Ekmek Döner",
+    "fiyat": 70,
+    "image": "resimler/yarim-ekmek.jpg"
+  },
+  {
+    "id": 4,
+    "isim": "Tam Ekmek Döner",
+    "fiyat": 130,
+    "image": "resimler/tam-ekmek.jpg"
+  },
+  {
+    "id": 5,
+    "isim": "Yarım Ekmek Kumru",
+    "fiyat": 100,
+    "image": "resimler/yarim-ekmek-kumru.jpeg"
+  },
+  {
+    "id": 6,
+    "isim": "Tam Ekmek Kumru",
+    "fiyat": 200,
+    "image": "resimler/tam-ekmek-kumru.jpeg"
+  
+  },
+  {
+    "id": 7,
+    "isim": "Yarım Klasik Dürüm",
+    "fiyat": 70,
+    "image": "resimler/yarim-klasik-durum.jpg"
+  },
+  {
+   "id": 8,
+    "isim": "Klasik Dürüm",
+    "fiyat": 130,
+    "image": "resimler/klasik-durum.jpeg"
+   
+  },
+  {
+    "id": 9,
+    "isim": "Yarım Cheddarlı Dürüm",
+    "fiyat": 100,
+    "image": "resimler/yarim-cedarli-durum.jpg"
+  },
+  {
+    "id": 10,
+    "isim": "Cheddarlı Dürüm",
+    "fiyat": 175,
+    "image": "resimler/cheddarli-durum.jpeg"
+   
+  },
+  {
+    "id": 11,
+    "isim": "Atom Tavuk Döner",
+    "fiyat": 120,
+    "image": "resimler/atom-ekmek.jpg"
+  },
+  {
+    "id": 12,
+    "isim": "Atom Kumru",
+    "fiyat": 120,
+    "image": "resimler/atom-ekmek-kumru.jpeg"
+  },
+  {
+    "id": 13,
+    "isim": "Dürüm Kumru",
+    "fiyat": 160,
+    "image": "resimler/durum-kumru.jpeg"
+  },
+  {
+    "id":14,
+    "isim": "Zurna Döner",
+    "fiyat": 200,
+    "image": "resimler/zurna-doner.jpg"
+  },
+  {
+    "id": 15,
+    "isim": "Tavuk Porsiyon",
+    "fiyat": 180,
+    "image": "resimler/tavuk-porsiyon.jpeg"
+  },
+  {
+    "id": 16,
+    "isim": "Beyti",
+    "fiyat": 250,
+    "image": "resimler/beyti.jpeg"
+  },
+  
+  {
+    "id": 17,
+    "isim": "Pilav Üstü Döner",
+    "fiyat": 200,
+    "image": "resimler/pilav-ustu-doner.jpeg"
+  },
+  {
+    "id": 18,
+    "isim": "Küçük Ayran",
+    "fiyat": 20,
+    "tip": "icecek",
+    "image": "resimler/kucuk-ayran.jpg"
+  },
+  {
+    "id": 19,
+    "isim": "Büyük Ayran",
+    "fiyat": 30,
+    "tip": "icecek",
+    "image": "resimler/buyuk-ayran.jpg"
+  },
+  {
+    "id": 20,
+    "isim": "Kola / Fanta",
+    "fiyat": 50,
+    "tip": "icecek"
+  },
+  {
+    "id": 21,
+    "isim": "Gazoz / Şalgam",
+    "fiyat": 35,
+    "tip": "icecek"
+  }
+]

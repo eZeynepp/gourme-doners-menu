@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #111; /* Siyah arka plan */
+    color: #fff; /* Beyaz yazılar */
+    padding-bottom: 40px;
+}
+
+header {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #000;
+    border-bottom: 4px solid #ff6600; /* Turuncu şerit */
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #ff6600;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.kategori {
+    margin-bottom: 25px;
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.kategori h2 {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.kategori ul {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.kategori li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px dashed #444;
+    font-size: 16px;
+}
+
+.kategori li:last-child {
+    border-bottom: none;
+}
+
+.urun-isim {
+    font-weight: 500;
+}
+
+.urun-fiyat {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* --- GÖRSELLERİN KESİLMEDEN KUTUYA SIĞMASi --- */
+.kategori img, .yemek-gorsel, img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;      /* Görselin hiçbir yerini kesmeden kutuya sığdırır */
+    background-color: #1a1a1a; /* Kenarlarda boşluk kalırsa uyumlu renk verir */
+    display: block;
+}
+
+/* --- MOBİL UYUMLULUK AYARI --- */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    /* Eğer ürünler yan yana grid yapısındaysa mobilde alt alta (tek sütun) durmasını sağlar */
+    .menu-grid, .urunler-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #888;
+    border-top: 1px solid #222;
+    max-width: 600px;
+    margin: 10px auto 0;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
