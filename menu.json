@@ -65,7 +65,7 @@
   },
   {
     "id": 11,
-    "isim": "Atom Tavuk Döner",
+    "isim": "3 Çeyrek Ekmek",
     "fiyat": 120,
     "image": "resimler/atom-ekmek.jpg"
   },
@@ -83,7 +83,7 @@
   },
   {
     "id":14,
-    "isim": "Zurna Döner",
+    "isim": "Zurna Dürüm",
     "fiyat": 200,
     "image": "resimler/zurna-doner.jpg"
   },
