@@ -106,28 +106,34 @@
     "fiyat": 200,
     "image": "resimler/pilav-ustu-doner.jpeg"
   },
-  {
+   {
     "id": 18,
+    "isim": "Porsiyon Patates",
+    "fiyat": 70,
+    "image": "resimler/porsiyon-doner.jpeg"
+  },
+  {
+    "id": 19,
     "isim": "Küçük Ayran",
     "fiyat": 20,
     "tip": "icecek",
     "image": "resimler/kucuk-ayran.jpg"
   },
   {
-    "id": 19,
+    "id": 20,
     "isim": "Büyük Ayran",
     "fiyat": 30,
     "tip": "icecek",
     "image": "resimler/buyuk-ayran.jpg"
   },
   {
-    "id": 20,
+    "id": 21,
     "isim": "Kola / Fanta",
     "fiyat": 50,
     "tip": "icecek"
   },
   {
-    "id": 21,
+    "id": 22,
     "isim": "Gazoz / Şalgam",
     "fiyat": 35,
     "tip": "icecek"
