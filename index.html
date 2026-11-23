@@ -6,12 +6,11 @@
     <title>Gourme Döner's Menü</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Resimlerin ekranda düzgün durması için ufak dokunuşlar */
         .urun-listesi {
             list-style: none;
             padding: 0;
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Sol ve sağ 2 sütun */
+            grid-template-columns: 1fr 1fr;
             gap: 20px;
             max-width: 600px;
             margin: 0 auto;
@@ -35,7 +34,7 @@
         .urun-detay {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 4px;
         }
         .urun-isim {
             color: #fff;
@@ -46,6 +45,10 @@
             color: #ff6600;
             font-size: 1.2rem;
             font-weight: bold;
+        }
+        .patates-fiyat {
+            color: #bbb;
+            font-size: 0.95rem;
         }
     </style>
 </head>
@@ -70,11 +73,9 @@
             .then(data => {
                 const container = document.getElementById('menu-container');
                 
-                // Ana yemekler için grid listesi
                 const yemekListesi = document.createElement('ul');
                 yemekListesi.className = 'urun-listesi';
                 
-                // İçecekler için alt bölüm
                 const icecekBolumu = document.createElement('div');
                 icecekBolumu.style.cssText = "margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto; padding: 20px; background: #222; border-radius: 10px;";
                 icecekBolumu.innerHTML = `<h2 style="color: #ff6600; text-align: center; margin-bottom: 15px;">İÇECEKLER</h2>`;
@@ -84,20 +85,23 @@
 
                 data.forEach(urun => {
                     if (urun.tip === "icecek") {
-                        // Resimsiz sade içecek satırı
                         const li = document.createElement('li');
                         li.style.cssText = "display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #333; color: #fff; font-size: 1.1rem;";
                         li.innerHTML = `<span>${urun.isim}</span> <span style="color: #ff6600; font-weight: bold;">${urun.fiyat} ₺</span>`;
                         icecekListesi.appendChild(li);
                     } else {
-                        // Yemekleri fotoğraflı kart olarak ekle
                         const li = document.createElement('li');
                         li.className = 'urun-karti';
+                        
+                        // Burada patatesliFiyat olarak güncelledik:
+                        let patatesHTML = urun.patatesliFiyat ? `<span class="patates-fiyat">+ Patates: ${urun.patatesliFiyat} ₺</span>` : '';
+
                         li.innerHTML = `
                             <img src="${urun.image}" alt="${urun.isim}" class="urun-gorsel">
                             <div class="urun-detay">
                                 <span class="urun-isim">${urun.isim}</span> 
                                 <span class="urun-fiyat">${urun.fiyat} ₺</span>
+                                ${patatesHTML}
                             </div>
                         `;
                         yemekListesi.appendChild(li);
