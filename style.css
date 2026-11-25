@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #111;
-    color: #fff;
+    background-color: #111; /* Siyah arka plan */
+    color: #fff; /* Beyaz yazılar */
     padding-bottom: 40px;
 }
 
@@ -15,7 +15,7 @@ header {
     text-align: center;
     padding: 25px 15px;
     background-color: #000;
-    border-bottom: 4px solid #ff6600;
+    border-bottom: 4px solid #ff6600; /* Turuncu şerit */
 }
 
 header h1 {
@@ -81,11 +81,11 @@ main {
 
 /* --- GÖRSELLERİN KESİLMEDEN KUTUYA SIĞMASI --- */
 .kategori img, .yemek-gorsel, img {
-    width: 100% !important;
-    height: 200px !important;
-    object-fit: contain !important;      /* Görseli kesmeden kutuya sığdırır */
-    background-color: #1a1a1a !important; /* Boş kalan yerler için arka plan */
-    display: block !important;
+    width: 100%;
+    height: 200px;              /* İstediğin gibi 200px sabit yükseklik */
+    object-fit: contain;        /* Görselin hiçbir yerini kesmeden kutuya sığdırır */
+    background-color: #1a1a1a;   /* Kenarlarda boşluk kalırsa uyumlu renk verir */
+    display: block;
 }
 
 /* --- MOBİL UYUMLULUK AYARI --- */
@@ -94,11 +94,12 @@ main {
         padding: 10px;
     }
     
+    /* Mobilde küçük ekranlar için yüksekliği dilersen ayarlayabilirsin, şimdilik masaüstü ile aynı 200px tutuldu */
     .kategori img, .yemek-gorsel, img {
-        height: 200px !important; 
-        object-fit: contain !important;
+        height: 200px; 
     }
 
+    /* Eğer ürünler yan yana grid yapısındaysa mobilde alt alta (tek sütun) durmasını sağlar */
     .menu-grid, .urunler-grid {
         grid-template-columns: 1fr !important;
     }
