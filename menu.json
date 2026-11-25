@@ -97,54 +97,73 @@
     "patatesliFiyat": 230,
     "image": "resimler/zurna-doner.jpg"
   },
-  {
+   {
     "id": 15,
+    "isim": "Kaşar Çedarlı Zurna Dürüm",
+    "fiyat": 250,
+    "patatesliFiyat": 275,
+    "image": "resimler/kasar-cedarlı-zurna-doner.jpg"
+  },
+   {
+    "id": 16,
+    "isim": "Yarım Patso",
+    "fiyat": 70,
+    "image": "resimler/yarım-patso-doner.jpg"
+  },
+   {
+    "id": 17,
+    "isim": "Tam Patso",
+    "fiyat": 100,
+    "image": "resimler/tam-patso.jpg"
+  },
+  {
+    "id": 18,
     "isim": "Tavuk Porsiyon",
     "fiyat": 180,
     "image": "resimler/tavuk-porsiyon.jpeg"
   },
   {
-    "id": 16,
+    "id": 19,
     "isim": "Beyti",
     "fiyat": 250,
     "image": "resimler/beyti.jpeg"
   },
   {
-    "id": 17,
+    "id": 20,
     "isim": "Pilav Üstü Döner",
     "fiyat": 200,
     "image": "resimler/pilav-ustu-doner.jpeg"
   },
   {
-    "id": 18,
+    "id": 21,
     "isim": "Porsiyon Patates",
     "fiyat": 70,
     "image": "resimler/porsiyon-patates.jpeg"
   },
   {
-    "id": 19,
+    "id": 22,
     "isim": "Küçük Ayran",
     "fiyat": 20,
     "tip": "icecek",
     "image": "resimler/kucuk-ayran.jpg"
   },
   {
-    "id": 20,
+    "id": 23,
     "isim": "Büyük Ayran",
     "fiyat": 40,
     "tip": "icecek",
     "image": "resimler/buyuk-ayran.jpg"
   },
   {
-    "id": 21,
+    "id": 24,
     "isim": "Kola / Fanta",
     "fiyat": 50,
     "tip": "icecek"
   },
   {
-    "id": 22,
+    "id": 25,
     "isim": "Gazoz / Şalgam",
-    "fiyat": 35,
+    "fiyat": 40,
     "tip": "icecek"
   }
 ]
