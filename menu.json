@@ -102,19 +102,19 @@
     "isim": "Kaşar Çedarlı Zurna Dürüm",
     "fiyat": 250,
     "patatesliFiyat": 275,
-    "image": "resimler/kasar-cedarlı-zurna-doner.jpg"
+    "image": "resimler/kasar-cedarlı-zurna-doner.jpeg"
   },
    {
     "id": 16,
     "isim": "Yarım Patso",
     "fiyat": 70,
-    "image": "resimler/yarım-patso-doner.jpg"
+    "image": "resimler/yarım-patso-doner.jpeg"
   },
    {
     "id": 17,
     "isim": "Tam Patso",
     "fiyat": 100,
-    "image": "resimler/tam-patso.jpg"
+    "image": "resimler/tam-patso.jpeg"
   },
   {
     "id": 18,
