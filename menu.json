@@ -16,8 +16,8 @@
   {
     "id": 3,
     "isim": "Yarım Ekmek Döner",
-    "fiyat": 70,
-    "patatesliFiyat": 80,
+    "fiyat": 75,
+    "patatesliFiyat": 85,
     "image": "resimler/yarim-ekmek.jpg"
   },
   {
@@ -38,14 +38,14 @@
     "id": 6,
     "isim": "Tam Ekmek Kumru",
     "fiyat": 200,
-    "patatesliFiyat": 230,
+    "patatesliFiyat": 240,
     "image": "resimler/tam-ekmek-kumru.jpeg"
   },
   {
     "id": 7,
     "isim": "Yarım Klasik Dürüm",
-    "fiyat": 70,
-    "patatesliFiyat": 80,
+    "fiyat": 75,
+    "patatesliFiyat": 85,
     "image": "resimler/yarim-klasik-durum.jpg"
   },
   {
